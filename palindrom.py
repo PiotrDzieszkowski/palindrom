@@ -8,3 +8,9 @@ def palindrome(lista):
     return wynik
  
 print(palindrome(["mama", "kajak", "książka","potop", "lalka"]))
+
+def palindrome(lista):
+  return lista == lista[::-1]
+  
+
+print(palindrome("kajak"))
