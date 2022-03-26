@@ -9,6 +9,8 @@ def palindrome(lista):
  
 print(palindrome(["mama", "kajak", "książka","potop", "lalka"]))
 
+# chciałbym zostawic powyższy kod żeby móc mieć wgląd na przyszłość
+
 def palindrome(lista):
   return lista == lista[::-1]
   
